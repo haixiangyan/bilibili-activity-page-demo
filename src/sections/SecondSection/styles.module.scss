@@ -1,0 +1,28 @@
+.secondSection {
+  ul {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    li {
+      color: white;
+      list-style: none;
+    }
+  }
+
+  // tab content
+  section {
+    padding: 16px;
+
+    h2 {
+      color: white;
+    }
+
+    img {
+      width: 100%;
+      margin-top: 16px;
+      border-radius: 6px;
+    }
+  }
+}
