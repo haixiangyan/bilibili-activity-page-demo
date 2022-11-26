@@ -6,8 +6,25 @@
     justify-content: space-around;
 
     li {
+      position: relative;
       color: white;
       list-style: none;
+
+      .line {
+        position: absolute;
+        left: 50%;
+        bottom: -8px;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 4px;
+        background: green;
+        opacity: 0;
+        transition: opacity .3s;
+
+        &.visible {
+          opacity: 1;
+        }
+      }
     }
   }
 
